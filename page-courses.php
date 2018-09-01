@@ -2,6 +2,8 @@
 /* Template Name: Courses */
 
 get_header(); ?>
+<div class="coach-profile">
+
 
 <div class="power">
   <video id="power" src="<?php bloginfo('stylesheet_directory'); ?>/images/power.mp4" autoplay muted poster="posterimage.jpg"></video>
@@ -12,7 +14,7 @@ get_header(); ?>
   <p class="intro-poc">
     <strong class="upper">To register contact:</strong> <span class="upper thin">3<sup>rd</sup>
     Force Communication Coaching: </span>
-    <strong>(406) 579-0000</strong>
+    <strong>(406)&nbsp;579&nbsp;-&nbsp;0000</strong>
   </p>
   <p class="preview-poc">
     <strong><em>For a
@@ -20,23 +22,23 @@ get_header(); ?>
        at your Business or Organization please contact us.</em></strong>
      </p>
      <span class=list-background>
-     <p class="list-header"><em>Tools to deepen your relationship with life, others ...</em> <span class="upper big">YOURSELF!</span></p>
-     <ul class="poc-list1">
-       <li><span class="upper">DISCOVER </span><em>new ways to step into willingness.</em></li>
-       <li><span class="upper">DEVELOP </span><em> tools to listen and speak withoutjudgment.</em></li>
-       <li><span class="upper">PRACTICE </span><em>making clear choices with purpose.</em></li>
-       <li><span class="upper">IDENTIFY </span><em> and overcome personal fears.</em></li>
-       <li><span class="upper">ESTABLISH </span><em>and honor healthy boundaries.</em></li>
-        <li><span class="upper">NEGOTIATE</span><em>with clarity and authenticity.</em></li>
-     </ul>
+       <p class="list-header"><em>Tools to deepen your relationship with life, others ...</em> <span class="upper big">YOURSELF!</span></p>
+       <ul class="poc-list1">
+         <li><span class="upper">DISCOVER </span><em>new ways to step into willingness.</em></li>
+         <li><span class="upper">DEVELOP </span><em> tools to listen and speak withoutjudgment.</em></li>
+         <li><span class="upper">PRACTICE </span><em>making clear choices with purpose.</em></li>
+         <li><span class="upper">IDENTIFY </span><em> and overcome personal fears.</em></li>
+         <li><span class="upper">ESTABLISH </span><em>and honor healthy boundaries.</em></li>
+          <li><span class="upper">NEGOTIATE</span><em>with clarity and authenticity.</em></li>
+       </ul>
 
-     <ul class="poc-list2">
-       <li><span class="upper">SPEAK </span><em>with authority while remaining open.</em></li>
-       <li><span class="upper">RELEASE </span><em>judgment in the moment.</em></li>
-       <li><span class="upper">IMPROVE </span><em> listening and speaking skills.</em></li>
-       <li><span class="upper">LEARN </span><em>to give and receive authentic acknowledgment.</em></li>
-       <li><span class="upper">EXPLORE </span><em>what it means to live with vision and purpose.</em></li>
-     </ul>
+       <ul class="poc-list2">
+         <li><span class="upper">SPEAK </span><em>with authority while remaining open.</em></li>
+         <li><span class="upper">RELEASE </span><em>judgment in the moment.</em></li>
+         <li><span class="upper">IMPROVE </span><em> listening and speaking skills.</em></li>
+         <li><span class="upper">LEARN </span><em>to give and receive authentic acknowledgment.</em></li>
+         <li><span class="upper">EXPLORE </span><em>what it means to live with vision and purpose.</em></li>
+       </ul>
 </span>
 
 <span class="fb-buffer space-bottom-plain"><span class="space5"></span></span>
@@ -66,6 +68,8 @@ get_header(); ?>
   </div>
 </div>
 
+
+</div>
 <?php get_footer(); ?>
 <style media="screen">
   footer {

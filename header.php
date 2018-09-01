@@ -15,6 +15,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	 <meta name="description" content="Troy and Lei-Anna Bertelsen are 3rd Force Coaching and Consulting. They are willing to Coach you either as a team or individually. Click here to find out how!"/>
    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700i,900|Playfair+Display+SC" rel="stylesheet">
    <link rel="icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/3FC fav.ico">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -38,7 +39,7 @@
         <a class="nav-link" href="http://localhost/thirdforcecommunications/">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/thirdforcecommunications/courses/">Courses</a>
+        <a class="nav-link" href="http://localhost/thirdforcecommunications/courses/">Course</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="http://localhost/thirdforcecommunications/coaching/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

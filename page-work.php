@@ -26,4 +26,216 @@ I bet you’re still using Bootstrap too…</p>
 </div>
 
 
-<?php get_footer; ?>s
+<div class="packages">
+<h1 class="packages-title">Packages</h1>
+<p class="package-1">Buy a package of 4 Sessions for $3,500 ($875/hr)</p>
+<div class="button-container-1">
+  <div class="button-1" id="paypal-button-1"></div>
+</div>
+
+<p class="package-2">Buy a Package of 10 Sessions for $7,500 ($750/hr)</p>
+
+<div class="button-container-2">
+  <div class="button-2" id="paypal-button-2"></div>
+</div>
+
+<p class="package-3">Sign up for 6 months of Coaching on Contract 1-2x/2weeks 18 sessions for $11,250 ($625/hr)</p>
+
+<div class="button-container-3">
+  <div class="button-3" id="paypal-button-3"></div>
+</div>
+
+<p class="package-4">Sign up for 12 months on Contract 1-2x/2weeks 30 sessions for $15,000 ($500/hr)</p>
+
+<div class="button-container-4">
+  <div class="button-4" id="paypal-button-4"></div>
+</div>
+
+<p class="package-5">Sign up for 24 months on Contract 1-2x/2weeks for 60 sessions for $24,000 ($400/hr)</p>
+
+<div class="button-container-5">
+  <div class="button-5" id="paypal-button-5"></div>
+</div>
+
+</div>
+
+
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script>
+paypal.Button.render({
+  // Configure environment
+  env: 'production',
+  client: {
+    sandbox: 'AQddee-PdgGxiSK5hGM_Rs2CFHYp-4vB1aUf7hN-DS3QVAXKujCpS-GEefA1scbqeUoROFzy9ipwPU_a',
+    production: 'AZ8wx1gYPArZnVG6Emd2hZ-rtnzsUQaLW3UFFkwCx9tXtC5v52sn_VE-_5Plmidqwn1SEYJX20dla-AU'
+  },
+  // Customize button (optional)
+  locale: 'en_US',
+  style: {
+    size: 'small',
+    color: 'gold',
+    shape: 'pill',
+  },
+  // Set up a payment
+  payment: function (data, actions) {
+    return actions.payment.create({
+      transactions: [{
+        amount: {
+          total: '3,500.00',
+          currency: 'USD'
+        }
+      }]
+    });
+  },
+  // Execute the payment
+  onAuthorize: function (data, actions) {
+    return actions.payment.execute()
+      .then(function () {
+        // Show a confirmation message to the buyer
+        window.alert('Thank you for your purchase!');
+      });
+  }
+}, '#paypal-button-1');
+
+paypal.Button.render({
+  // Configure environment
+  env: 'production',
+  client: {
+    sandbox: 'AQddee-PdgGxiSK5hGM_Rs2CFHYp-4vB1aUf7hN-DS3QVAXKujCpS-GEefA1scbqeUoROFzy9ipwPU_a',
+    production: 'AZ8wx1gYPArZnVG6Emd2hZ-rtnzsUQaLW3UFFkwCx9tXtC5v52sn_VE-_5Plmidqwn1SEYJX20dla-AU'
+  },
+  // Customize button (optional)
+  locale: 'en_US',
+  style: {
+    size: 'small',
+    color: 'gold',
+    shape: 'pill',
+  },
+  // Set up a payment
+  payment: function (data, actions) {
+    return actions.payment.create({
+      transactions: [{
+        amount: {
+          total: '7,500.00',
+          currency: 'USD'
+        }
+      }]
+    });
+  },
+  // Execute the payment
+  onAuthorize: function (data, actions) {
+    return actions.payment.execute()
+      .then(function () {
+        // Show a confirmation message to the buyer
+        window.alert('Thank you for your purchase!');
+      });
+  }
+}, '#paypal-button-2');
+
+paypal.Button.render({
+  // Configure environment
+  env: 'production',
+  client: {
+    sandbox: 'AQddee-PdgGxiSK5hGM_Rs2CFHYp-4vB1aUf7hN-DS3QVAXKujCpS-GEefA1scbqeUoROFzy9ipwPU_a',
+    production: 'AZ8wx1gYPArZnVG6Emd2hZ-rtnzsUQaLW3UFFkwCx9tXtC5v52sn_VE-_5Plmidqwn1SEYJX20dla-AU'
+  },
+  // Customize button (optional)
+  locale: 'en_US',
+  style: {
+    size: 'small',
+    color: 'gold',
+    shape: 'pill',
+  },
+  // Set up a payment
+  payment: function (data, actions) {
+    return actions.payment.create({
+      transactions: [{
+        amount: {
+          total: '11,250.00',
+          currency: 'USD'
+        }
+      }]
+    });
+  },
+  // Execute the payment
+  onAuthorize: function (data, actions) {
+    return actions.payment.execute()
+      .then(function () {
+        // Show a confirmation message to the buyer
+        window.alert('Thank you for your purchase!');
+      });
+  }
+}, '#paypal-button-3');
+
+paypal.Button.render({
+  // Configure environment
+  env: 'production',
+  client: {
+    sandbox: 'AQddee-PdgGxiSK5hGM_Rs2CFHYp-4vB1aUf7hN-DS3QVAXKujCpS-GEefA1scbqeUoROFzy9ipwPU_a',
+    production: 'AZ8wx1gYPArZnVG6Emd2hZ-rtnzsUQaLW3UFFkwCx9tXtC5v52sn_VE-_5Plmidqwn1SEYJX20dla-AU'
+  },
+  // Customize button (optional)
+  locale: 'en_US',
+  style: {
+    size: 'small',
+    color: 'gold',
+    shape: 'pill',
+  },
+  // Set up a payment
+  payment: function (data, actions) {
+    return actions.payment.create({
+      transactions: [{
+        amount: {
+          total: '15,000.00',
+          currency: 'USD'
+        }
+      }]
+    });
+  },
+  // Execute the payment
+  onAuthorize: function (data, actions) {
+    return actions.payment.execute()
+      .then(function () {
+        // Show a confirmation message to the buyer
+        window.alert('Thank you for your purchase!');
+      });
+  }
+}, '#paypal-button-4');
+
+paypal.Button.render({
+  // Configure environment
+  env: 'production',
+  client: {
+    sandbox: 'AQddee-PdgGxiSK5hGM_Rs2CFHYp-4vB1aUf7hN-DS3QVAXKujCpS-GEefA1scbqeUoROFzy9ipwPU_a',
+    production: 'AZ8wx1gYPArZnVG6Emd2hZ-rtnzsUQaLW3UFFkwCx9tXtC5v52sn_VE-_5Plmidqwn1SEYJX20dla-AU'
+  },
+  // Customize button (optional)
+  locale: 'en_US',
+  style: {
+    size: 'small',
+    color: 'gold',
+    shape: 'pill',
+  },
+  // Set up a payment
+  payment: function (data, actions) {
+    return actions.payment.create({
+      transactions: [{
+        amount: {
+          total: '24,000.00',
+          currency: 'USD'
+        }
+      }]
+    });
+  },
+  // Execute the payment
+  onAuthorize: function (data, actions) {
+    return actions.payment.execute()
+      .then(function () {
+        // Show a confirmation message to the buyer
+        window.alert('Thank you for your purchase!');
+      });
+  }
+}, '#paypal-button-5');
+</script>
+
+<?php get_footer; ?>

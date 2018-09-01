@@ -8,6 +8,8 @@ $paragraph_2 = get_field("paragraph_2");
 $paragraph_3 = get_field("paragraph_3");
 
 get_header(); ?>
+<div class="coach-profile">
+
 
 <div class="courses-mtl">
   <div class="mtl-space-top"></div>
@@ -23,7 +25,7 @@ get_header(); ?>
   <p class="mtl-text3"><?php echo $paragraph_3; ?></p>
 
 
-<p class="facebook-life">Visit our <a class="md-lg" href="http://www.moretolifeus.org/bozeman" target="_blank">More to Life, Bozeman page</a> to see when the next course is.</p>
+<p class="facebook-life">Visit our <a class="md-lg2" href="http://www.moretolifeus.org/bozeman" target="_blank">More&nbsp;to&nbsp;Life,&nbsp;Bozeman&nbsp;page</a> to see when the next course is.</p>
 </div>
 
 <div class="team-grid2">
@@ -33,12 +35,16 @@ get_header(); ?>
 <div class="video-shell">
   <div class="video">
     <!-- <div class="space-vid"></div> -->
-<iframe class="poc-vid" width="840" height="472.5" src="https://www.youtube.com/embed/HWhLcIHwb5o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<!-- <iframe class="poc-vid" width="840" height="472.5" src="https://www.youtube.com/embed/HWhLcIHwb5o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+<iframe width="840" height="472.5" src="https://www.youtube.com/embed/aHW1wj4OTH8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
   </div>
 </div>
 
 <div class="mtl-space-top">
+
+</div>
+
 
 </div>
 

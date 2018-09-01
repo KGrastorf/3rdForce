@@ -34,7 +34,7 @@ jQuery(document).ready(function() {
 
   var testScene1b = new ScrollMagic.Scene({
       triggerElement: '.test-1-name',
-      triggerHook: .7
+      triggerHook: .9
     })
     .setClassToggle('.test-1-name', 'fade-in')
     .addTo(controller);
@@ -55,7 +55,7 @@ jQuery(document).ready(function() {
 
   var testScene2b = new ScrollMagic.Scene({
       triggerElement: '.test-2-name',
-      triggerHook: .7
+      triggerHook: .9
     })
     .setClassToggle('.test-2-name', 'fade-in')
     .addTo(controller);
@@ -77,7 +77,7 @@ jQuery(document).ready(function() {
 
   var testScene3b = new ScrollMagic.Scene({
       triggerElement: '.test-3-name',
-      triggerHook: .7
+      triggerHook: .9
     })
     .setClassToggle('.test-3-name', 'fade-in')
     .addTo(controller);
@@ -98,7 +98,7 @@ jQuery(document).ready(function() {
 
     var testScene4b = new ScrollMagic.Scene({
         triggerElement: '.test-4-name',
-        triggerHook: .7
+        triggerHook: .9
       })
       .setClassToggle('.test-4-name', 'fade-in')
       .addTo(controller);
@@ -119,7 +119,7 @@ jQuery(document).ready(function() {
 
     var testScene5b = new ScrollMagic.Scene({
         triggerElement: '.test-5-name',
-        triggerHook: .7
+        triggerHook: .9
       })
       .setClassToggle('.test-5-name', 'fade-in')
       .addTo(controller);
@@ -141,7 +141,7 @@ jQuery(document).ready(function() {
 
     var testScene6b = new ScrollMagic.Scene({
         triggerElement: '.test-6-name',
-        triggerHook: .7
+        triggerHook: .9
       })
       .setClassToggle('.test-6-name', 'fade-in')
       .addTo(controller);
@@ -162,7 +162,7 @@ jQuery(document).ready(function() {
 
       var testScene7b = new ScrollMagic.Scene({
           triggerElement: '.test-7-name',
-          triggerHook: .7
+          triggerHook: .9
         })
         .setClassToggle('.test-7-name', 'fade-in')
         .addTo(controller);
@@ -183,7 +183,7 @@ jQuery(document).ready(function() {
 
       var testScene8b = new ScrollMagic.Scene({
           triggerElement: '.test-8-name',
-          triggerHook: .7
+          triggerHook: .9
         })
         .setClassToggle('.test-8-name', 'fade-in')
         .addTo(controller);
@@ -205,7 +205,7 @@ jQuery(document).ready(function() {
 
       var testScene9b = new ScrollMagic.Scene({
           triggerElement: '.test-9-name',
-          triggerHook: .7
+          triggerHook: .9
         })
         .setClassToggle('.test-9-name', 'fade-in')
         .addTo(controller);

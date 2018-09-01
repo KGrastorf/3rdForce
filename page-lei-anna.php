@@ -11,6 +11,8 @@ $lei_anna_paragraph_3 = get_field('lei_anna_paragraph_3');
 
 get_header(); ?>
 
+<div class="coach-profile">
+
 
 <div class="lei-anna-grid">
     <h1 class="lap-title"><?php echo $lei_anna_title; ?></h1>
@@ -31,9 +33,19 @@ get_header(); ?>
 
 <div class="lei-anna-grid2">
   <h1 class="coach-title"><?php echo $lei_anna_title_2 ; ?></h1>
-  <p class="coach-text1"><?php echo $lei_anna_paragraph_2 ; ?></p>
+  <p class="coach-text1"><?php echo $lei_anna_paragraph_2; ?></p>
 
-  <p class="coach-text2"><?php echo $lei_anna_paragraph_3  ?></p>
+  <p class="coach-text2"><?php echo $lei_anna_paragraph_3;  ?></p>
 </div>
 
+<div class="lei-anna-grid2">
+  <?php if( !empty($lei_anna_paragraph_4) ): ?>
+  <p class="coach-text1"><?php echo $lei_anna_paragraph_4; ?></p>
+  <?php endif; ?>
+  <?php if( !empty($lei_anna_paragraph_5 ) ): ?>
+  <p class="coach-text2"><?php echo $lei_anna_paragraph_5; ?></p>
+  <?php endif; ?>
+</div>
+
+</div>
 <?php get_footer(); ?>
